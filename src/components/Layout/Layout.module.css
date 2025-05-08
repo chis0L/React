@@ -1,0 +1,36 @@
+.Layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 0;
+}
+
+.Wrapper {
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.Main {
+    padding: 0 20px;
+}
+
+.Footer {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color)
+}
